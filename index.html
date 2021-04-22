@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <container class="position">
+        <h1>DRUM KIT</h1>
+        <section>
+            <div data-key="81" class="button button-1"><kbd>Q</kbd><span class="sound">GunShot</span></div>
+            <div data-key="87" class="button button-1"><kbd>W</kbd><span class="sound">Breath</span></div>
+            <div data-key="69" class="button button-1"><kbd>E</kbd><span class="sound">Combo</span></div>
+            <div data-key="82" class="button button-1"><kbd>R</kbd><span class="sound">Hey</span></div>
+            <div data-key="84" class="button button-1"><kbd>T</kbd><span class="sound">Noise</span></div>
+            <div data-key="89" class="button button-1"><kbd>Y</kbd><span class="sound">Oh</span></div>
+            <div data-key="85" class="button button-1"><kbd>U</kbd><span class="sound">What</span></div>
+            <div data-key="73" class="button button-1"><kbd>I</kbd><span class="sound">Who</span></div>
+            <div data-key="79" class="button button-1"><kbd>O</kbd><span class="sound">Splash</span></div>
+            <div data-key="80" class="button button-1"><kbd>P</kbd><span class="sound">Crash</span></div>
+        </section>
+        <section>
+            <div data-key="65" class="button button-1"><kbd>A</kbd><span class="sound">clap</span></div>
+            <div data-key="83" class="button button-1"><kbd>S</kbd><span class="sound">hihat</span></div>
+            <div data-key="68" class="button button-1"><kbd>D</kbd><span class="sound">kick</span></div>
+            <div data-key="70" class="button button-1"><kbd>F</kbd><span class="sound">openhat</span></div>
+            <div data-key="71" class="button button-1"><kbd>G</kbd><span class="sound">boom</span></div>
+            <div data-key="72" class="button button-1"><kbd>H</kbd><span class="sound">ride</span></div>
+            <div data-key="74" class="button button-1"><kbd>J</kbd><span class="sound">snare</span></div>
+            <div data-key="75" class="button button-1"><kbd>K</kbd><span class="sound">tom</span></div>
+            <div data-key="76" class="button button-1"><kbd>L</kbd><span class="sound">tink</span></div>
+        </section>
+        <section>
+            <div data-key="90" class="button button-1"><kbd>Z</kbd><span class="sound">Knock</span></div>
+            <div data-key="88" class="button button-1"><kbd>X</kbd><span class="sound">Bell</span></div>
+            <div data-key="67" class="button button-1"><kbd>C</kbd><span class="sound">Blam</span></div>
+            <div data-key="86" class="button button-1"><kbd>V</kbd><span class="sound">Crust</span></div>
+            <div data-key="66" class="button button-1"><kbd>B</kbd><span class="sound">Shaker</span></div>
+            <div data-key="78" class="button button-1"><kbd>N</kbd><span class="sound">Deep</span></div>
+            <div data-key="77" class="button button-1"><kbd>M</kbd><span class="sound">up</span></div>
+            <div data-key="188" class="button button-1"><kbd>,</kbd><span class="sound">Zap</span></div>
+        </section>
+    </container>
+
+    <!-- Row 1 -->
+    <audio data-key="81" src="sounds/Gun Shot.wav"></audio>
+    <audio data-key="87" src="sounds/Chant Breath 002.wav"></audio>
+    <audio data-key="69" src="sounds/Chant Combo.wav"></audio>
+    <audio data-key="82" src="sounds/Chant Hey 001.wav"></audio>
+    <audio data-key="84" src="sounds/Chant Noise.wav"></audio>
+    <audio data-key="89" src="sounds/Chant Oh 001.wav"></audio>
+    <audio data-key="85" src="sounds/Chant What 001.wav"></audio>
+    <audio data-key="73" src="sounds/Chant Who 001.wav"></audio>
+    <audio data-key="79" src="sounds/Clap 008.wav"></audio>
+    <audio data-key="80" src="sounds/Crash 001.wav"></audio>
+    <!-- Row 2 -->
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+    <!-- Row 3 -->
+    <audio data-key="90" src="sounds/Kick 002 Knock.wav"></audio>
+    <audio data-key="88" src="sounds/Triangle 001.wav"></audio>
+    <audio data-key="67" src="sounds/Kick 004 Blam.wav"></audio>
+    <audio data-key="86" src="sounds/Kick 009 Crust.wav"></audio>
+    <audio data-key="66" src="sounds/Shaker 001.wav"></audio>
+    <audio data-key="78" src="sounds/Kick 005 Deep.wav"></audio>
+    <audio data-key="77" src="sounds/Up.wav"></audio>
+    <audio data-key="188" src="sounds/Zap 002.wav"></audio>
+
+    <!-- JS link -->
+    <script src="script.js"></script>
+</body>
+</html>

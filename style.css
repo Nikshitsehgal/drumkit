@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'neontubes';
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    width: auto;
+    height: auto;
+}
+
+.position{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+  font-family: "neontubes";
+  font-size: 10vh;
+  color: #f1e213;
+}
+
+.box{
+  border: 3px solid #f1e213;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: all .07s ease;
+  }
+
+  .playing {
+    transform: scale(1.1);
+    border-color: #f1e213;
+    box-shadow: 0 0 1rem #f1e213;
+  }
+  
+  .button-1 {
+    background-color: transparent;
+    border: 3px solid #f1e213;
+    border-radius: 20px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #f1e213;
+  }
+
+  kbd{
+    display: block;
+    font-size: 4rem;
+  }
+
+  .sound{
+    font-size: 1rem;
+    font-family: "neontubes";
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #f1e213;
+  }
